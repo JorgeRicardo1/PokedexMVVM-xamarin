@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PokedexMVVM.Views.Registrarpokemon"
+             NavigationPage.HasNavigationBar="False">
+    <Grid RowDefinitions="80,*"
+          BackgroundColor="#1d1d1d">
+        <StackLayout Orientation="Horizontal"
+                     Margin="10">
+            <Image Source="flechavolver.png"/>
+            <Image Source="https://i.ibb.co/bgzt5zw/logopokemon.png"
+                   HorizontalOptions="CenterAndExpand"/>
+            <Image Source="https://i.ibb.co/R790bpC/pokebola.png"/>
+        </StackLayout>
+        <StackLayout Grid.Row="1"
+                     Margin="10">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Nombre:"
+                       TextColor="White"
+                       VerticalOptions="Center"/>
+                <Entry Placeholder="Ingrese el nombre"
+                       FontAttributes="Bold"
+                       PlaceholderColor="White"
+                       TextColor="#ffeb72"
+                       TextTransform="Lowercase"
+                       FontSize="20"
+                       HorizontalOptions="StartAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Color fondo:"
+                       TextColor="White"
+                       VerticalOptions="Center"/>
+                <Entry Placeholder="Ingrese el color fondo"
+                       FontAttributes="Bold"
+                       PlaceholderColor="White"
+                       TextColor="White"
+                       TextTransform="Lowercase"
+                       FontSize="20"
+                       HorizontalOptions="StartAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Nro:"
+                       TextColor="White"
+                       VerticalOptions="Center"/>
+                <Entry Placeholder="Ingrese el Nro"
+                       FontAttributes="Bold"
+                       PlaceholderColor="White"
+                       TextColor="White"
+                       TextTransform="Lowercase"
+                       FontSize="20"
+                       HorizontalOptions="StartAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Icono:"
+                       TextColor="White"
+                       VerticalOptions="Center"/>
+                <Entry Placeholder="Ingrese el icono"
+                       FontAttributes="Bold"
+                       PlaceholderColor="White"
+                       TextColor="White"
+                       TextTransform="Lowercase"
+                       FontSize="20"
+                       HorizontalOptions="StartAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Poder:"
+                       TextColor="White"
+                       VerticalOptions="Center"/>
+                <Entry Placeholder="Ingrese el poder"
+                       FontAttributes="Bold"
+                       PlaceholderColor="White"
+                       TextColor="White"
+                       TextTransform="Lowercase"
+                       FontSize="20"
+                       HorizontalOptions="StartAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Color poder:"
+                       TextColor="White"
+                       VerticalOptions="Center"/>
+                <Entry Placeholder="Ingrese el color de poder"
+                       FontAttributes="Bold"
+                       PlaceholderColor="White"
+                       TextColor="White"
+                       TextTransform="Lowercase"
+                       FontSize="20"
+                       HorizontalOptions="StartAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="Center">
+                <Image Source="https://i.ibb.co/q5qHgmx/ver-1.png"
+                       HeightRequest="20"/>
+                <Label Text="Vista previa"
+                       FontSize="20"
+                       TextColor="White"
+                       FontAttributes="Italic"
+                       VerticalOptions="Center"/>
+            </StackLayout>
+            <Grid RowDefinitions="100,*">
+                <Frame Grid.Row="1">
+                    
+                </Frame>
+                <Image/>
+            </Grid>
+        </StackLayout>
+
+    </Grid>
+</ContentPage>
